@@ -1,0 +1,67 @@
+import java.util.Scanner;
+       public class DaysMonths{
+       public static void main(String[] args){
+       Scanner input = new Scanner(System.in);
+
+       System.out.print("Enter user name:");
+       String name = input.nextLine();
+
+       System.out.printf("%s enter month:", name);
+       int x = input.nextInt();
+
+       System.out.printf(%s enter year:", name);
+       int y = input.nextInt();
+
+       if( month == 1 && year == 2023 ){
+       System.out.printf("31 days in the month");
+        }
+
+       if ( month == 2 && year == 2023){
+        System.out.printf("28 days in the month");
+        }
+
+      if ( month == 3 && year == 2023){
+        System.out.printf("31 days in the month");
+        }
+
+      if ( month == 4 && year == 2023){
+        System.out.printf("30 days in the month");
+       }
+
+       if ( month == 5 && year == 2023){
+        System.out.printf("31 days in the month");
+       }
+
+      if ( month == 6 && year == 2023){
+      System.out.printf("30 days in the month");
+       }
+
+      if ( month == 7 && year == 2023){
+      System.out.printf("31 days in the month");
+       }
+ 
+      if ( month == 8 && year == 2023){
+      System .out.printf("31 days in the month");
+       }
+
+     if ( month == 9 && year == 2023){
+     System.out.printf("30 days in the month");
+       }
+
+    if ( month == 10 && year == 2023){
+      System.out.printf("31 days in the month");
+      }
+
+    if ( month == 11 && year == 2023){
+      System.out.printf("30 days in the month");
+      }
+
+   if ( month == 12 && year == 2023){
+      System.out.printf("31 days in the month");
+     }
+
+       }
+
+   }
+
+    
